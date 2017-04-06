@@ -1,0 +1,16 @@
+Create a new repo on GitHub and call it basic_repo
+Create a local repository also called basic_repo
+	C:\Users\White Box\Desktop>cd repo test
+	C:\Users\White Box\Desktop\Repo Test>git init
+Create some files inside your local repo and add some content on them
+	C:\Users\White Box\Desktop\Repo Test>copy NUL testing
+	C:\Users\White Box\Desktop\Repo Test>copy Nul testing_2.txt
+Add, commit, and push these changes to GitHub
+	C:\Users\White Box\Desktop\Repo Test>git add .
+	C:\Users\White Box\Desktop\Repo Test>git commit -m "Initial Commit"
+	C:\Users\White Box\Desktop\Repo Test>git remote add origin https://github.com/EAvery13/basic_repo.git
+	C:\Users\White Box\Desktop\Repo Test>git log
+	C:\Users\White Box\Desktop\Repo Test>git push -u origin master
+Make some more changes to the local copy of your file and push them to GitHub
+	C:\Users\White Box\Desktop\Repo Test>git push -u origin master
+Go to your GitHub account and see your new repo and the changes you've made
